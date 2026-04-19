@@ -1,7 +1,7 @@
 import { Suspense } from "react";
-import CategoriesPageClient from "./categories-page-client";
+import BrandsPageClient from "./brands-page-client";
 
-export default function CategoriesPage() {
+export default function BrandsPage() {
   return (
     <Suspense
       fallback={
@@ -10,7 +10,7 @@ export default function CategoriesPage() {
         </div>
       }
     >
-      <CategoriesPageClient />
+      <BrandsPageClient />
     </Suspense>
   );
 }
